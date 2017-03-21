@@ -16,7 +16,7 @@ namespace Word_Reversal_Main_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new WordReversal());
         }
     }
 }
