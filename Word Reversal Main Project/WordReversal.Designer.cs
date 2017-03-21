@@ -30,6 +30,7 @@
         {
             this.txtWordsOfSentancesToBeReversed = new System.Windows.Forms.TextBox();
             this.btnWordsToBeReversed = new System.Windows.Forms.Button();
+            this.lblDisplayReversedSentence = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -51,14 +52,22 @@
             this.btnWordsToBeReversed.UseVisualStyleBackColor = true;
             this.btnWordsToBeReversed.Click += new System.EventHandler(this.btnWordsToBeReversed_Click);
             // 
+            // lblDisplayReversedSentence
+            // 
+            this.lblDisplayReversedSentence.AutoSize = true;
+            this.lblDisplayReversedSentence.Location = new System.Drawing.Point(69, 207);
+            this.lblDisplayReversedSentence.Name = "lblDisplayReversedSentence";
+            this.lblDisplayReversedSentence.Size = new System.Drawing.Size(0, 13);
+            this.lblDisplayReversedSentence.TabIndex = 2;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(69, 207);
+            this.label1.Location = new System.Drawing.Point(69, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.label1.Size = new System.Drawing.Size(116, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Please Enter Sentence";
             // 
             // WordReversal
             // 
@@ -66,10 +75,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(601, 261);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblDisplayReversedSentence);
             this.Controls.Add(this.btnWordsToBeReversed);
             this.Controls.Add(this.txtWordsOfSentancesToBeReversed);
             this.Name = "WordReversal";
-            this.Text = "Form1";
+            this.Text = "Word Reversal";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -79,6 +89,7 @@
 
         private System.Windows.Forms.TextBox txtWordsOfSentancesToBeReversed;
         private System.Windows.Forms.Button btnWordsToBeReversed;
+        private System.Windows.Forms.Label lblDisplayReversedSentence;
         private System.Windows.Forms.Label label1;
     }
 }
